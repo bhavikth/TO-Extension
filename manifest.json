@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "OT Navigation",
+    "description": "Trail Unofficial OT Chrome Extension.",
+    "version": "1.1",
+    "author": "Bhavik Thakkar",
+    "incognito": "split",
+    "browser_action": {
+        "default_icon": "main20.png",
+        "default_popup": "popup.html",
+        "default_title": "Unofficial Chrome Extension to navigate around OneTrust"
+    },
+    "icons": {
+    "128": "main20.png"
+  },
+  "permissions": [
+      "activeTab",
+      "storage"
+   ]
+}
